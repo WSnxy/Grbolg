@@ -1,0 +1,28 @@
+body {
+    -webkit-font-smoothing：antialiased;
+    -moz-user-select:none;/*火狐*/
+    -webkit-user-select:none;/*webkit浏览器*/
+    -ms-user-select:none;/*IE10*/
+    -khtml-user-select:none;/*早期浏览器*/
+    user-select:none;
+    padding-top: 70px;
+    background-color: rgb(246, 246, 246); 
+}
+#pt{
+    position: fixed;
+    right: 5%;
+    bottom: 5%;
+    z-index: 99;
+}
+#pb{
+    position: fixed;
+    right: 5%;
+    bottom: 13%;
+    z-index: 99;
+}
+#thumbs{
+    position: fixed;
+    right: 5%;
+    bottom: 20%;
+    z-index: 99;
+}
